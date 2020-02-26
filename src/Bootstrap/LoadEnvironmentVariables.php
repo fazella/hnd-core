@@ -17,6 +17,10 @@ class LoadEnvironmentVariables
         $this->fileName = $fileName;
     }
 
+    public function bootstrap() {
+        return $this->createDotEnv();
+    }
+
     protected function createDotEnv(){
         $dotenv = new Dotenv();
         $dotenv->loadEnv(
