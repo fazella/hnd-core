@@ -1,0 +1,17 @@
+{
+  "name": "fazella/hnd-core",
+  "description": "HND REST API Framework",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ade Hendini",
+      "email": "adehendini@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+  },
+  "require": {}
+}
